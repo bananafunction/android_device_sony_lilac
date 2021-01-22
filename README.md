@@ -16,7 +16,7 @@ How to build LineageOS
 
 * Initialize the repo:
 
-        repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
+        repo init -u git://github.com/bananafunction/android.git -b lineage-17.1
 
 * Create a local manifest:
 
@@ -25,12 +25,12 @@ How to build LineageOS
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
             <!-- SONY -->
-            <project name="whatawurst/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
-            <project name="whatawurst/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" revision="lineage-17.1" />
-            <project name="whatawurst/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="lineage-17.1" />
+            <project name="bananafunction/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
+            <project name="bananafunction/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" revision="lineage-17.1" />
+            <project name="bananafunction/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="lineage-17.1" />
 
             <!-- Pinned blobs for lilac -->
-            <project name="whatawurst/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="lineage-17.1" />
+            <project name="bananafunction/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="lineage-17.1" />
         </manifest>
 
 * Sync the repo:
